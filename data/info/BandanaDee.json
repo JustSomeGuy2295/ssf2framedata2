@@ -1,0 +1,8 @@
+{
+    "1": {  
+        "Jab 1": {"angle": 50, "damage": 2, "image": "https://github.com/JustSomeGuy2295/ssf2framedata2/blob/main/data/images/Bandana%20Dee/Full%20Speed/jab1.gif?raw=true"},
+        "Rapid Jab": {"angle": 75, "damage": 0.7, "image": "data/images/Bandana Dee/Full Speed/jab-2.gif"},
+        "Jab Finisher": {},
+        "Jab Combo": {}
+    }
+}
