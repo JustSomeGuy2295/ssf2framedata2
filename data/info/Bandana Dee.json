@@ -1,8 +1,14 @@
 {
-    "Jab": {  
-        "Jab 1": {"angle": 50, "damage": 2},
-        "Rapid Jab": {"angle": 75, "damage": 0.7},
-        "Jab Finisher": {"angle": 10, "damage": 8},
-        "Jab Combo": {"angle": 10, "damage": 20}
+    "Jab": {
+        "Hitboxes": {  
+            "Jab 1": {"Total Duration": "9", "Active": "3-5", "angle": 50, "damage": "2%"},
+            "Rapid Jab": {"Active": "Every third frame", "angle": 75, "damage": "0.7%"},
+            "Jab Finisher": {"Total Duration": "23", "Active": "2-5, 8-9", "angle": 35, "damage": "1%, 3%"},
+            "Jab Combo": {"Total Duration": "51", "Active": "3-4, 14, 17, 20, 23, 26, 30-33, 36-37", "angle": 35, "damage": "9.5%"}
+        },
+        "Images": {
+            "Full Speed": {"Jab 1": "https://i.imgur.com/eKG5NPh.gif", "Rapid Jab": "https://i.imgur.com/HRDx4qa.gif", "Jab Finisher": "https://i.imgur.com/j5eU1JL.gif", "Jab Combo": "https://i.imgur.com/CuMWdXH.gif"},
+            "Slowmo": {"Jab 1": "https://i.imgur.com/KKXzxMe.gif", "Rapid Jab": "https://i.imgur.com/pTdqkCZ.gif", "Jab Finisher": "https://i.imgur.com/Iu3QfDu.gif", "Jab Combo": "https://i.imgur.com/TyQsawQ.gif"}
+        }        
     }
 }
