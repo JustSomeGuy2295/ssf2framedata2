@@ -1,13 +1,17 @@
 import json
 
 char = 'Bandana Dee'
-move = 'Jab'
+move = 'Dash Attack'
 
 with open('data/characters.json', 'r') as c:
     charidentifier = json.load(c)
 
 with open(f'data/info/{char}.json', 'r') as f:
     charinfo = json.load(f)
+
+embeds = []
+gif_pairs = []  # (fullspeed_url, slowmo_url)
+hits = []
 
 # Character info for embed title, author, etc
 for idx, identifier in enumerate(charidentifier[char]):
@@ -17,11 +21,14 @@ for idx, identifier in enumerate(charidentifier[char]):
 # Move info for embed description    
 for i, hit in enumerate(charinfo[move]["Hitboxes"]):
     # Iterates through the different hits the move has
-    print(f'Hit: {hit}')
+    #hits.append(hit)
+    print(hit)
     
     # For every value listed in each hit prints the value name and value value
     for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
-        print(f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}')
+        desc = "".join(f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}')
+        print(desc)
     
+    # Extract images
     print(f'Image: {charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')
     print(f'Slowmo: {charinfo[move]["Images"]["Slowmo"][f"{hit}"]}')

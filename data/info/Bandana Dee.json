@@ -13,10 +13,11 @@
     },
     "Dash Attack": {
         "Hitboxes": {
-
+            "Dash Attack" : {"Total Duration": "10", "Active": "3", "angle": 10, "damage": "5%"}
         },
-        "Images":{
-
+        "Images": {
+            "Full Speed": {"Dash Attack": "Full Speed GIF"},
+            "Slowmo": {"Dash Attack": "Slowmo GIF"}
         }
     },
     "Forward Tilt": {
