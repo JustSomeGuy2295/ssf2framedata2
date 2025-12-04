@@ -1,7 +1,7 @@
 import json
 
 char = 'Bandana Dee'
-move = 'Dash Attack'
+move = 'Jab'
 
 with open('data/characters.json', 'r') as c:
     charidentifier = json.load(c)
@@ -15,8 +15,9 @@ hits = []
 
 # Character info for embed title, author, etc
 for idx, identifier in enumerate(charidentifier[char]):
-    print(f'{identifier} {charidentifier[char][identifier]}')
+    #print(f'{identifier} {charidentifier[char][identifier]}')
                         # charidentifier[char][identifier] returns characters id, color, icon
+    color = charidentifier[char]['color']
 
 # Move info for embed description    
 for i, hit in enumerate(charinfo[move]["Hitboxes"]):
@@ -32,3 +33,5 @@ for i, hit in enumerate(charinfo[move]["Hitboxes"]):
     # Extract images
     print(f'Image: {charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')
     print(f'Slowmo: {charinfo[move]["Images"]["Slowmo"][f"{hit}"]}')
+    
+print(color)

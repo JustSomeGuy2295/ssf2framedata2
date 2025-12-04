@@ -1,4 +1,5 @@
 import json
+from typing import Literal
 import discord
 from discord import app_commands
 from discord.ui import Button, View
@@ -96,7 +97,7 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
         for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
             desc = "\n".join(f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}')
             
-        embed = discord.Embed(description=f'```\n{desc}```', color=charidentifier[char]["color"])
+        embed = discord.Embed(description=f'```\n{desc}```', color=int(charidentifier[char]["color"], 16))
         hit_text = hit # not sure what to do here yet
         embed.set_author(name=f'{char} {move}{hit_text}', icon_url=charidentifier[char]["icon"])
         embed.set_footer(text='Up to date as of patch 1.4.0.1')
@@ -130,3 +131,6 @@ class Hitboxes(commands.Cog):
         """Bandana Dee frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Bandana Dee', attack, interaction.user)
         await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+async def setup(bot: commands.Bot):
+    await bot.add_cog(Hitboxes(bot))
