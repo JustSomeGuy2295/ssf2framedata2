@@ -16,15 +16,13 @@ desc = ''
 
 # Character info for embed title, author, etc
 for idx, identifier in enumerate(charidentifier[char]):
-    #print(f'{identifier} {charidentifier[char][identifier]}')
+    print(f'{identifier} {charidentifier[char][identifier]}')
                         # charidentifier[char][identifier] returns characters id, color, icon
-    color = charidentifier[char]['color']
 
 # Move info for embed description    
 for i, hit in enumerate(charinfo[move]["Hitboxes"]):
     # Iterates through the different hits the move has
-    #hits.append(hit)
-    print(hit)
+    hits.append(hit)   
     
     # For every value listed in each hit prints the value name and value value
     for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
@@ -32,7 +30,7 @@ for i, hit in enumerate(charinfo[move]["Hitboxes"]):
         
     
     # Extract images
-    print(f'Image: {charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')
-    print(f'Slowmo: {charinfo[move]["Images"]["Slowmo"][f"{hit}"]}')
+    #print(f'Image: {charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')
+    #print(f'Slowmo: {charinfo[move]["Images"]["Slowmo"][f"{hit}"]}')
     
-print(desc)
+print(hits)

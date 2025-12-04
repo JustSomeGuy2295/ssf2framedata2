@@ -1,10 +1,10 @@
 {
     "Jab": {
         "Hitboxes": {  
-            "Jab 1": {"Total Duration": "9", "Active": "3-5", "angle": 50, "damage": "2%"},
-            "Rapid Jab": {"Active": "Every third frame", "angle": 75, "damage": "0.7%"},
-            "Jab Finisher": {"Total Duration": "23", "Active": "2-5, 8-9", "angle": 35, "damage": "1%, 3%"},
-            "Jab Combo": {"Total Duration": "51", "Active": "3-4, 14, 17, 20, 23, 26, 30-33, 36-37", "angle": 35, "damage": "9.5%"}
+            "Jab 1": {"Total Duration": "9", "Active": "3-5", "damage": "2%", "angle": 50},
+            "Rapid Jab": {"Active": "Every third frame", "damage": "0.7%", "angle": 75},
+            "Jab Finisher": {"Total Duration": "23", "Active": "2-5, 8-9", "damage": "1%, 3%", "angle": 35},
+            "Jab Combo": {"Total Duration": "51", "Active": "3-4, 14, 17, 20, 23, 26, 30-33, 36-37", "damage": "9.5%", "angle": 35}
         },
         "Images": {
             "Full Speed": {"Jab 1": "https://i.imgur.com/eKG5NPh.gif", "Rapid Jab": "https://i.imgur.com/HRDx4qa.gif", "Jab Finisher": "https://i.imgur.com/j5eU1JL.gif", "Jab Combo": "https://i.imgur.com/CuMWdXH.gif"},
@@ -13,11 +13,11 @@
     },
     "Dash Attack": {
         "Hitboxes": {
-            "Dash Attack" : {"Total Duration": "10", "Active": "3", "angle": 10, "damage": "5%"}
+            "Dash Attack" : {"Total Duration": "26", "Active": "7-17", "damage": "4%, 7%", "angle": 50}
         },
         "Images": {
-            "Full Speed": {"Dash Attack": "Full Speed GIF"},
-            "Slowmo": {"Dash Attack": "Slowmo GIF"}
+            "Full Speed": {"Dash Attack": "https://i.imgur.com/YnpMWOG.gif"},
+            "Slowmo": {"Dash Attack": "https://i.imgur.com/SQnwXh8.gif"}
         }
     },
     "Forward Tilt": {

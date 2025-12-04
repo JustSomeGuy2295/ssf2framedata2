@@ -77,19 +77,26 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
     embeds = []
     gif_pairs = []  # (fullspeed_url, slowmo_url)
     hits = []
-    desc = ""
-         
+
     # Move info for embed description    
     for i, hit in enumerate(charinfo[move]["Hitboxes"]):
         # Iterates through the different hits the move has
         hits.append(hit)
+         
+    # Move info for embed description    
+    for i, hit in enumerate(charinfo[move]["Hitboxes"]):
+        # Iterates through the different hits the move has
         
         # For every value listed in each hit prints the value name and value value
+        desc = ""
         for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
             desc += f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}\n'
             
         embed = discord.Embed(description=f'```\n{desc}```', color=int(charidentifier[char]["color"], 16))
-        hit_text = "placeholder" # not sure what to do here yet
+        if len(hits)>1:
+            hit_text = f" ({hit})"
+        else:
+            hit_text = ""
         embed.set_author(name=f'{char} {move}{hit_text}', icon_url=charidentifier[char]["icon"])
         embed.set_footer(text='Up to date as of patch 1.4.0.1')
         embed.set_image(url=f'{charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')  # Default to fullspeed       
