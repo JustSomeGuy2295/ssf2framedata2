@@ -1,0 +1,218 @@
+	"Jab": {
+		"Hitboxes": {
+			"Jab 1":{"Startup": "1-2", "Active": "3-4", "Endlag": "5-12", "Damage": "4%", "Angle": "45°"},
+			"Jab 2":{"Startup": "1-4", "Active": "5-7", "Endlag": "8-16", "Damage": "6%", "Angle": "70°"},
+			"Jab Combo":{"Startup": "1-2", "Active": "3-4, 17-19", "Endlag": "20-28", "Damage": "10%", "Angle": "70°"},
+		},
+		"Images": {
+			"Full Speed": {"Jab 1": "https://i.imgur.com/dW83F6L.gif", "Jab 2": "https://i.imgur.com/2s9U0my.gif", "Jab Combo": "https://i.imgur.com/mWwNSAj.gif"},
+			"Slowmo": {"Jab 1": "https://i.imgur.com/wqb7Y3I.gif", "Jab 2": "https://i.imgur.com/SOGTd3J.gif", "Jab Combo": "https://i.imgur.com/H5LiuXi.gif"}
+		}
+	},
+	"Dash Attack": {
+		"Hitboxes": {
+			"Dash Attack":{"Startup": "1-2", "Active": "3-8", "Endlag": "9-19", "Damage": "11%", "Angle": "60°", "Notes": "Air jump cancellable throughout entire animation"}
+		},
+		"Images": {
+			"Full Speed": {"Dash Attack": "https://i.imgur.com/M1ifW1F.gif"},
+			"Slowmo": {"Dash Attack": "https://i.imgur.com/oQBu5ht.gif"}
+		}
+	},
+	"Forward Tilt": {
+		"Hitboxes": {
+			"Forward Tilt":{"Startup": "1-5", "Active": "6-7", "Endlag": "8-16", "Damage": "10%", "Angle": "33°"}
+		},
+		"Images": {
+			"Full Speed": {"Forward Tilt": "https://i.imgur.com/r2VCVRk.gif"},
+			"Slowmo": {"Forward Tilt": "https://i.imgur.com/iFIFABP.gif"}
+		}
+	},
+	"Up Tilt": {
+		"Hitboxes": {
+			"Up Tilt":{"Startup": "1-6", "Active": "7, 8-9, 10", "Endlag": "11-21", "Sweetspot Damage": "11%", "Sourspot Damage": "11%, 9%, 8%", "Angle": "90°, (90°/100°), (90°/115°)"}
+		},
+		"Images": {
+			"Full Speed": {"Up Tilt": "https://i.imgur.com/sDHA4f1.gif"},
+			"Slowmo": {"Up Tilt": "https://i.imgur.com/i2ZAWC8.gif"}
+		}
+	},
+	"Down Tilt": {
+		"Hitboxes": {
+			"Down Tilt":{"Startup": "1-3", "Active": "4-6", "Endlag": "7-12", "Damage": "10%", "Angle": "37°"}
+		},
+		"Images": {
+			"Full Speed": {"Down Tilt": "https://i.imgur.com/NVbGwbZ.gif"},
+			"Slowmo": {"Down Tilt": "https://i.imgur.com/lFZ1s2c.gif"}
+		}
+	},
+	"Forward Smash": {
+		"Hitboxes": {
+			"Forward Smash":{"Startup": "1-8", "Active": "9-10", "Endlag": "11-28", "Damage": "20%", "Angle": "45°"}
+		},
+		"Images": {
+			"Full Speed": {"Forward Smash": "https://i.imgur.com/PwUh8kD.gif"},
+			"Slowmo": {"Forward Smash": "https://i.imgur.com/VNZrte6.gif"}
+		}
+	},
+	"Up Smash": {
+		"Hitboxes": {
+			"Up Smash":{"Startup": "1-6", "Active": "7-8", "Endlag": "9-26", "Damage": "18%", "Angle": "90°", "Intangible": "7-9 (On arms)"}
+		},
+		"Images": {
+			"Full Speed": {"Up Smash": "https://i.imgur.com/sDbvyGb.gif"},
+			"Slowmo": {"Up Smash": "https://i.imgur.com/wS1Dxa7.gif"}
+		}
+	},
+	"Down Smash": {
+		"Hitboxes": {
+			"Down Smash":{"Startup": "1-7", "Active": "8-10", "Endlag": "11-30", "Damage": "17%", "Angle": "115°"}
+		},
+		"Images": {
+			"Full Speed": {"Down Smash": "https://i.imgur.com/inj7kBK.gif"},
+			"Slowmo": {"Down Smash": "https://i.imgur.com/grxixBh.gif"}
+		}
+	},
+	"Neutral Air": {
+		"Hitboxes": {
+			"Neutral Air":{"Startup": "1-2", "Active": "3-4, 5-12", "Endlag": "13-18", "Landing Lag": "5", "Sweetspot Damage": "11%", "Sourspot Damage": "8%", "Angle": "45°/65°"}
+		},
+		"Images": {
+			"Full Speed": {"Neutral Air": "https://i.imgur.com/Jglg83N.gif"},
+			"Slowmo": {"Neutral Air": "https://i.imgur.com/ZP2j3wq.gif"}
+		}
+	},
+	"Forward Air": {
+		"Hitboxes": {
+			"Forward Air":{"Startup": "1-10", "Active": "11-13, 13-14", "Endlag": "15-24", "Landing Lag": "8", "Sweetspot Damage": "15%", "Sourspot Damage": "16%, 13%", "Angle": "270°/45°"}
+		},
+		"Images": {
+			"Full Speed": {"Forward Air": "https://i.imgur.com/o9LqS6m.gif"},
+			"Slowmo": {"Forward Air": "https://i.imgur.com/2yxKMdl.gif"}
+		}
+	},
+	"Back Air": {
+		"Hitboxes": {
+			"Back Air":{"Startup": "1-4", "Active": "5-6, 7-9", "Endlag": "10-16", "Landing Lag": "6", "Sweetspot Damage": "13%", "Sourspot Damage": "8%", "Angle": "140°/130°"}
+		},
+		"Images": {
+			"Full Speed": {"Back Air": "https://i.imgur.com/lGN2HJy.gif"},
+			"Slowmo": {"Back Air": "https://i.imgur.com/7wkYgOH.gif"}
+		}
+	},
+	"Up Air": {
+		"Hitboxes": {
+			"Up Air":{"Startup": "1-4", "Active": "5-7", "Endlag": "8-16", "Damage": "13%", "Landing Lag": "5", "Angle": "80°"}
+		},
+		"Images": {
+			"Full Speed": {"Up Air": "https://i.imgur.com/OQUmQUc.gif"},
+			"Slowmo": {"Up Air": "https://i.imgur.com/PA1J6BB.gif"}
+		}
+	},
+	"Down Air": {
+		"Hitboxes": {
+			"Down Air":{"Startup": "1-8", "Active": "9-11", "Endlag": "12-20", "Damage": "16%", "Landing Lag": "9", "Angle": "270°"}
+		},
+		"Images": {
+			"Full Speed": {"Down Air": "https://i.imgur.com/msCrKEk.gif"},
+			"Slowmo": {"Down Air": "https://i.imgur.com/Wt6ygSV.gif"}
+		}
+	},
+	"Neutral Special": {
+		"Hitboxes": {
+			"Charging":{"Startup": "1-4", "Endlag": "5-64"},
+			"Punch":{"Startup": "1-9", "Active": "10", "Endlag": "11-31", "Damage": "10%/7% (Ground/Air)", "Angle": "45°", "Notes": "Damage scaling: DMG + 18 × (Charge ÷ MaxCharge)"},
+			"Punch (Full Charge)":{"Startup": "1-9", "Active": "10", "Endlag": "11-24", "Damage": "28%/25% (Ground/Air)", "Angle": "45°", "Armored": "6-10/9-10 (Ground/Air)"},
+		},
+		"Images": {
+			"Full Speed": {"Charging": "https://i.imgur.com/1zu4Vyn.gif", "Punch": "https://i.imgur.com/v6gwLkl.gif", "Punch (Full Charge)": "https://i.imgur.com/k2dXpBJ.gif"},
+			"Slowmo": {"Charging": "https://i.imgur.com/Howquto.gif", "Punch": "https://i.imgur.com/92OKbHt.gif", "Punch (Full Charge)": "https://i.imgur.com/8PlPbKp.gif"}
+		}
+	},
+	"Side Special": {
+		"Hitboxes": {
+			"Headbut":{"Startup": "1-8", "Active": "9-10", "Endlag": "11-18", "Damage": "10%/11% (Ground/Air)", "Angle": "271°", "Cooldown": "3"},
+			"Bury":{"Active": "30+", "Notes": "For every 1.6667% the opponent has they are buried for an extra frame, calculated after getting hit. Each mash decreases timer by 3 frames."},
+		},
+		"Images": {
+			"Full Speed": {"Headbut": "https://i.imgur.com/ueC6a1j.gif", "Bury": "https://i.imgur.com/R8QsWNC.png"},
+			"Slowmo": {"Headbut": "https://i.imgur.com/bKOquy3.gif", "Bury": "https://i.imgur.com/R8QsWNC.png"}
+		}
+	},
+	"Up Special": {
+		"Hitboxes": {
+			"Grounded":{"Startup": "1-2", "Active": "3-5, 9-10, 13-14 ... 41-42, 45-46", "Endlag": "47-59", "Damage": "14%, 9x 1%, 4%", "Angle": "45°, 52°, 70°", "Armored": "1-2"},
+			"Aerial":{"Startup": "1-2", "Active": "3-5, 10-11, 13-14 ... 28-29, 31-32", "Endlag": "33-48", "Damage": "14%, 10x 1%, 3%", "Angle": "45°, 52°, 70°", "Armored": "1-5", "Notes": "Ledge grab active frames 3-5, 37+"},
+		},
+		"Images": {
+			"Full Speed": {"Grounded": "https://i.imgur.com/uJlnrS7.gif", "Aerial": "https://i.imgur.com/3Vp7KG4.gif"},
+			"Slowmo": {"Grounded": "https://i.imgur.com/6rfL0RQ.gif", "Aerial": "https://i.imgur.com/diSrca9.gif"}
+		}
+	},
+	"Down Special": {
+		"Hitboxes": {
+			"Tap":{"Startup": "1-7", "Active": "8, 14", "Endlag": "15-24", "Damage": "11%", "Angle": "80°"},
+			"Hold":{"Startup": "1-4", "Active": "5, 12", "Endlag": "13-15", "Damage": "11%", "Angle": "80°", "Notes": "Loops frames 6-20 from tap version"},
+		},
+		"Images": {
+			"Full Speed": {"Tap": "https://i.imgur.com/CY939DV.gif", "Hold": "https://i.imgur.com/WNEAOfE.gif"},
+			"Slowmo": {"Tap": "https://i.imgur.com/C3jKpr1.gif", "Hold": "https://i.imgur.com/GQZiz1g.gif"}
+		}
+	},
+	"Taunt": {
+		"Hitboxes": {
+			"Taunt":{}
+		},
+		"Images": {
+			"Full Speed": {"Taunt": "None"},
+			"Slowmo": {"Taunt": "None"}
+		}
+	},
+	"Grab": {
+		"Hitboxes": {
+			"Standing Grab":{"Startup": "1-4", "Active": "5", "Endlag": "6-16"},
+			"Dash Grab":{"Startup": "1-5", "Active": "6", "Endlag": "7-25"},
+			"Pummel":{"Startup": "1-6", "Active": "7", "Endlag": "8-12", "Damage": "3%"},
+		},
+		"Images": {
+			"Full Speed": {"Standing Grab": "https://i.imgur.com/JA2r5Og.gif", "Dash Grab": "https://i.imgur.com/ETgtRJx.gif", "Pummel": "https://i.imgur.com/29psY1V.gif"},
+			"Slowmo": {"Standing Grab": "https://i.imgur.com/aWmElqM.gif", "Dash Grab": "https://i.imgur.com/FDkO6Bg.gif", "Pummel": "https://i.imgur.com/694iZsd.gif"}
+		}
+	},
+	"Forward Throw": {
+		"Hitboxes": {
+			"Cargo Hold":{"Startup": "90+", "Notes": "For every 4% the opponent has they are held for an extra frame, calculated after getting hit. Each mash decreases timer by 2 frames."},
+			"Cargo Throw Forward":{"Startup": "1-5", "Active": "6-7", "Endlag": "8-14", "Damage": "8%", "Angle": "48°"},
+			"Cargo Throw Up":{"Startup": "1-5", "Active": "6-7", "Endlag": "8-14", "Damage": "8%", "Angle": "90°"},
+		},
+		"Images": {
+			"Full Speed": {"Cargo Hold": "https://i.imgur.com/DNB9vuZ.gif", "Cargo Throw Forward": "https://i.imgur.com/T3yf23V.gif", "Cargo Throw Up": "https://i.imgur.com/8j2uKes.gif"},
+			"Slowmo": {"Cargo Hold": "https://i.imgur.com/vj24Yh0.gif", "Cargo Throw Forward": "https://i.imgur.com/s2FapPS.gif", "Cargo Throw Up": "https://i.imgur.com/9LhDW1h.gif"}
+		}
+	},
+	"Back Throw": {
+		"Hitboxes": {
+			"Back Throw":{"Startup": "1-9", "Active": "10-11", "Endlag": "12-20", "Damage": "11%", "Angle": "50°"}
+		},
+		"Images": {
+			"Full Speed": {"Back Throw": "https://i.imgur.com/8j2uKes.gif"},
+			"Slowmo": {"Back Throw": "https://i.imgur.com/NOWL2l0.gif"}
+		}
+	},
+	"Up Throw": {
+		"Hitboxes": {
+			"Up Throw":{"Startup": "1-7", "Active": "8-10", "Endlag": "11-20", "Damage": "9%", "Angle": "85°"}
+		},
+		"Images": {
+			"Full Speed": {"Up Throw": "https://i.imgur.com/hgnuAie.gif"},
+			"Slowmo": {"Up Throw": "https://i.imgur.com/GkNwUOB.gif"}
+		}
+	},
+	"Down Throw": {
+		"Hitboxes": {
+			"Down Throw":{"Startup": "1-12", "Active": "13", "Endlag": "14-22", "Damage": "7%", "Angle": "75°"}
+		},
+		"Images": {
+			"Full Speed": {"Down Throw": "https://i.imgur.com/hgnuAie.gif"},
+			"Slowmo": {"Down Throw": "https://i.imgur.com/qGR2rEz.gif"}
+		}
+	},

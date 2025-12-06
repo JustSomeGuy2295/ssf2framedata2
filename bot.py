@@ -1,20 +1,12 @@
-from os import getenv
 import json
 from sys import version
 from typing import Literal
-import subprocess
 
 import discord
 from discord.ext import commands
-import redis
-import requests
-import tabulate
 
 print(f'Python {version}\n'
-      f'discord.py {discord.__version__} | '
-      f'hiredis-py {redis.__version__} | '
-      f'requests {requests.__version__} | '
-      f'tabulate {tabulate.__version__}')
+      f'discord.py {discord.__version__} | ')
 
 
 class MyBot(commands.Bot):
