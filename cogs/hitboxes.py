@@ -90,7 +90,7 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
         # For every value listed in each hit prints the value name and value value
         desc = ""
         for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
-            desc += f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}\n'
+            desc += f'{info}: {charinfo[move]["Hitboxes"][f"{hit}"][f"{info}"]}\n'
             
         embed = discord.Embed(description=f'```\n{desc}```', color=int(charidentifier[char]["color"], 16))
         if len(hits)>1:
