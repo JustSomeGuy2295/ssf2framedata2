@@ -27,5 +27,5 @@ KEYS.json
 SECRETS.json
 duplicate finder.py
 json testing 2.py
-char.txt
-Blank.json
+data/info/char.txt
+data/info/Blank.json

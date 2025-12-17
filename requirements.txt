@@ -1,8 +1,1 @@
-discord.py~=2.3.2
-discord
-discord.ext
-discord.ui
-json
-typing
-sys
-os
+discord.py
