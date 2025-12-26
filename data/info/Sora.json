@@ -143,11 +143,12 @@
 	"Up Smash": {
 		"Hitboxes": {
 			"Up Smash": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-7",
+				"Active": "7-8, 9-10, 11-13, 14-16, 17, 18-19",
+				"Endlag": "20-30",
+				"Damage": "0%, 4x 4.5%, 7%",
+				"Angle": "120 (windbox), 150/225 (multihits), 50 (final hit)",
+				"Notes": "Windbox causes one of the multihits to whiff"
 			}
 		},
 		"Images": {
@@ -181,13 +182,13 @@
 	"Neutral Air": {
 		"Hitboxes": {
 			"Neutral Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4-7, 8-12",
+				"Endlag": "13-17",
+				"Damage": "5%, 5%",
+				"Landing Lag": "6",
+				"Autocancel": "1-2, 12-17",
+				"Angle": "82, 50"
 			}
 		},
 		"Images": {
@@ -202,13 +203,13 @@
 	"Forward Air": {
 		"Hitboxes": {
 			"Forward Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
-				"Angle": ""
+				"Startup": "1-5",
+				"Active": "6-8",
+				"Endlag": "9-17",
+				"Damage": "12%",
+				"Landing Lag": "4",
+				"Autocancel": "1-2, 17",
+				"Angle": "40"
 			}
 		},
 		"Images": {
@@ -223,13 +224,13 @@
 	"Back Air": {
 		"Hitboxes": {
 			"Back Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
-				"Angle": ""
+				"Startup": "1-6",
+				"Active": "7-9",
+				"Endlag": "10-17",
+				"Damage": "11%",
+				"Landing Lag": "5",
+				"Autocancel": "1-4, 16-17",
+				"Angle": "45"
 			}
 		},
 		"Images": {
@@ -244,13 +245,13 @@
 	"Up Air": {
 		"Hitboxes": {
 			"Up Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
-				"Angle": ""
+				"Startup": "1-4",
+				"Active": "5-7",
+				"Endlag": "8-14",
+				"Damage": "9%",
+				"Landing Lag": "6",
+				"Autocancel": "1-2, 12-14",
+				"Angle": "80"
 			}
 		},
 		"Images": {
@@ -265,13 +266,13 @@
 	"Down Air": {
 		"Hitboxes": {
 			"Down Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
-				"Angle": ""
+				"Startup": "1-4",
+				"Active": "5-8",
+				"Endlag": "9-15",
+				"Damage": "8%",
+				"Landing Lag": "5",
+				"Autocancel": "1-2, 12-15",
+				"Angle": "45"
 			}
 		},
 		"Images": {
@@ -286,16 +287,16 @@
 	"Neutral Special": {
 		"Hitboxes": {
 			"Hurtbox": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": ""
+				"Startup": "1-8",
+				"Active": "9 (Projectile Spawn)",
+				"Endlag": "10-48",
+				"Ledgesnap": "25+"
 			},
 			"Projectile": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Active": "1-2, 3-4, ... , 23-24",
+				"Endlag": "25-27",
+				"Damage": "11x 1%, 3%",
+				"Angle": "10, 160, 120"
 			}
 		},
 		"Images": {
@@ -312,43 +313,51 @@
 	"Side Special": {
 		"Hitboxes": {
 			"Detection": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": ""
+				"Startup": "1-12",
+				"Active": "13-23",
+				"Endlag": "24-34",
+				"Ledge Snap": "32+",
+				"Damage": "4%",
+				"Angle": "95"
+			},
+			"Neutral": {
+				"Active": "1-11, 20-21",
+				"Endlag": "22-31",
+				"Damage": "3x 2%, 4%",
+				"Angle": "100"
 			},
 			"Forward": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4-13",
+				"Endlag": "14-16",
+				"Damage": "7%",
+				"Angle": "50"
 			},
 			"Back": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Active": "1-11, 20",
+				"Endlag": "21-26",
+				"Damage": "3x 2%, 3%",
+				"Angle": "110"
 			},
 			"Up": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4, 8, 13, 17",
+				"Endlag": "18-21",
+				"Damage": "3x 1%, 3%",
+				"Angle": "49"
 			},
 			"Down": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4, 8, 12, 16",
+				"Endlag": "17-21",
+				"Damage": "3x 1%, 5%",
+				"Angle": "310"
 			}
 		},
 		"Images": {
 			"Full Speed": {
 				"Detection": "",
+				"Neutral": "",
 				"Forward": "",
 				"Back": "",
 				"Up": "",
@@ -356,6 +365,7 @@
 			},
 			"Slowmo": {
 				"Detection": "",
+				"Neutral": "",
 				"Forward": "",
 				"Back": "",
 				"Up": "",

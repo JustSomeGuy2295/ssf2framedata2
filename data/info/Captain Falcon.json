@@ -4,7 +4,7 @@
 			"Jab 1": {
 				"Startup": "1",
 				"Active": "2",
-				"Endlag": "3-7",
+				"Endlag": "3-5",
 				"Damage": "2%",
 				"Angle": "60"
 			},
@@ -26,37 +26,37 @@
 				"Active": "Every third frame",
 				"Damage": "0.5% per hit"
 			},
-			"Gentleman": {
-				"Startup": "1",
-				"Active": "2, 8-9, 17-18",
-				"Endlag": "19-25",
-				"Damage": "11%",
-				"Angle": "60"
-			},
 			"Rapid Jab Finisher": {
 				"Startup": "1-2",
 				"Active": "3",
 				"Endlag": "4-24",
 				"Damage": "3%",
 				"Angle": "45"
+			},
+			"Gentleman": {
+				"Startup": "1",
+				"Active": "2, 7-8, 16-17",
+				"Endlag": "19-25",
+				"Damage": "11%",
+				"Angle": "60"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Jab 1": "https://i.imgur.com/VXkgaVJ.gif",
-				"Jab 2": "https://i.imgur.com/r1tB6y2.gif",
-				"Jab 3": "https://i.imgur.com/JyD45yK.gif",
+				"Jab 1": "https://i.imgur.com/GGPXEWv.gif",
+				"Jab 2": "https://i.imgur.com/XEzP81E.gif",
+				"Jab 3": "https://i.imgur.com/sBtaiYz.gif",
 				"Rapid Jab": "https://i.imgur.com/XozhmjH.gif",
-				"Gentleman": "https://i.imgur.com/23cGjrz.gif",
-				"Rapid Jab Finisher": "https://i.imgur.com/VO2f1lO.gif"
+				"Rapid Jab Finisher": "https://i.imgur.com/VO2f1lO.gif",
+				"Gentleman": "https://i.imgur.com/06iwCLd.gif"
 			},
 			"Slowmo": {
-				"Jab 1": "https://i.imgur.com/aQadBt4.gif",
-				"Jab 2": "https://i.imgur.com/B9ZXc1f.gif",
-				"Jab 3": "https://i.imgur.com/rRi87yb.gif",
+				"Jab 1": "https://i.imgur.com/OOLXXfS.gif",
+				"Jab 2": "https://i.imgur.com/FGvlEZW.gif",
+				"Jab 3": "https://i.imgur.com/FGvlEZW.gif",
 				"Rapid Jab": "https://i.imgur.com/RLpSb6W.gif",
-				"Gentleman": "https://i.imgur.com/aIqfrb4.gif",
-				"Rapid Jab Finisher": "https://i.imgur.com/6sOcj1H.gif"
+				"Rapid Jab Finisher": "https://i.imgur.com/6sOcj1H.gif",
+				"Gentleman": "https://i.imgur.com/JcF9xJl.gif"
 			}
 		}
 	},
