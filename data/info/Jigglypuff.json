@@ -174,12 +174,12 @@
 	"Neutral Air": {
 		"Hitboxes": {
 			"Neutral Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
+				"Startup": "1-3",
+				"Active": "4, 5-19",
+				"Endlag": "20-24",
+				"Damage": "11%, 4%",
+				"Landing Lag": "5",
+				"Autocancel": "1-2, 20-24",
 				"Angle": ""
 			}
 		},

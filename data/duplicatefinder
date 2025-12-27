@@ -1,4 +1,0 @@
-SELECT image, COUNT(slowmo)
-FROM hitboxes
-GROUP BY slowmo
-HAVING COUNT(slowmo) > 1;
