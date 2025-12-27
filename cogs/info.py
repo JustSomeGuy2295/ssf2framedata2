@@ -20,7 +20,7 @@ class Info(commands.Cog):
             icon_url=self.bot.user.display_avatar.url)
         embed.add_field(
             name='Developed by blair, adapted by justsomeguy',
-            value='https://github.com/blair-c/Mentorbot3.0\nhttps://github.com/JustSomeGuy2295/SSF2-Framedata',
+            value='https://github.com/blair-c/Mentorbot3.0\nhttps://github.com/JustSomeGuy2295/ssf2framedata2',
             inline=False)
         embed.add_field(
             name='Data curated by the SSF2 Framedata team and craftyfurry',

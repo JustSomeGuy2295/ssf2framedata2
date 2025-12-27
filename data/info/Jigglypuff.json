@@ -2,84 +2,68 @@
 	"Jab": {
 		"Hitboxes": {
 			"Jab 1": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-2",
+				"Active": "3-4",
+				"Endlag": "5-9",
+				"Damage": "3%",
+				"Angle": "70"
 			},
 			"Jab 2": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
-			},
-			"Jab 3": {
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-9",
+				"Damage": "3%",
+				"Angle": "30"
 			},
 			"Jab Combo": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-2",
+				"Active": "3-4, 13",
+				"Endlag": "14-18",
+				"Damage": "6%",
+				"Angle": "30"
 			}
 		},
 		"Images": {
 			"Full Speed": {
 				"Jab 1": "",
 				"Jab 2": "",
-				"Jab 3": "",
 				"Jab Combo": ""
 			},
 			"Slowmo": {
 				"Jab 1": "",
 				"Jab 2": "",
-				"Jab 3": "",
 				"Jab Combo": ""
 			}
 		}
 	},
 	"Dash Attack": {
 		"Hitboxes": {
-			"Hit": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
-			},
-			"Whiff": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+			"Dash Attack": {
+				"Startup": "1-3",
+				"Active": "4, 5-8",
+				"Endlag": "9-18",
+                "Early Hit Damage": "12%",
+				"Late Hit Damage": "8%",
+				"Angle": "59"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Hit": "",
-				"Whiff": ""
+				"Dash Attack": ""
 			},
 			"Slowmo": {
-				"Hit": "",
-				"Whiff": ""
+				"Dash Attack": ""
 			}
 		}
 	},
 	"Forward Tilt": {
 		"Hitboxes": {
 			"Forward Tilt": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-4",
+				"Active": "5-8",
+				"Endlag": "9-15",
+				"Damage": "10%",
+				"Angle": "45"
 			}
 		},
 		"Images": {
@@ -94,12 +78,11 @@
 	"Up Tilt": {
 		"Hitboxes": {
 			"Up Tilt": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": "",
-				"Notes": ""
+				"Startup": "1-3",
+				"Active": "4-6",
+				"Endlag": "7-15",
+				"Damage": "7%",
+				"Angle": "90"
 			}
 		},
 		"Images": {
@@ -114,11 +97,11 @@
 	"Down Tilt": {
 		"Hitboxes": {
 			"Down Tilt": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-4",
+				"Active": "5-6",
+				"Endlag": "7-19",
+				"Damage": "10%",
+				"Angle": "22"
 			}
 		},
 		"Images": {
@@ -133,11 +116,12 @@
 	"Forward Smash": {
 		"Hitboxes": {
 			"Forward Smash": {
-				"Startup": "",
-				"Active": "",
+				"Startup": "1-5",
+				"Active": "6-7, 8-10",
 				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+                "Early Hit Damage": "16%",
+				"Late Hit Damage": "13%",
+				"Angle": "40"
 			}
 		},
 		"Images": {
@@ -152,11 +136,11 @@
 	"Up Smash": {
 		"Hitboxes": {
 			"Up Smash": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4-6",
+				"Endlag": "7-22",
+				"Damage": "15%",
+				"Angle": "90"
 			}
 		},
 		"Images": {
@@ -171,11 +155,11 @@
 	"Down Smash": {
 		"Hitboxes": {
 			"Down Smash": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-4",
+				"Active": "5-6",
+				"Endlag": "7-26",
+				"Damage": "12%",
+				"Angle": "15"
 			}
 		},
 		"Images": {
@@ -190,12 +174,12 @@
 	"Neutral Air": {
 		"Hitboxes": {
 			"Neutral Air": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Landing Lag": "",
-				"Autocancel": "",
+				"Startup": "1-3",
+				"Active": "4, 5-19",
+				"Endlag": "20-24",
+				"Damage": "11%, 4%",
+				"Landing Lag": "5",
+				"Autocancel": "1-2, 20-24",
 				"Angle": ""
 			}
 		},
@@ -294,12 +278,13 @@
 	},
 	"Neutral Special": {
 		"Hitboxes": {
-			"Hurtbox": {
+			"Charging": {
 				"Startup": "",
 				"Active": "",
-				"Endlag": ""
+				"Endlag": "",
+                "Notes": ""
 			},
-			"Projectile": {
+			"Release": {
 				"Startup": "",
 				"Active": "",
 				"Endlag": "",
@@ -309,45 +294,32 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "",
-				"Projectile": ""
+				"Charging": "",
+				"Release": ""
 			},
 			"Slowmo": {
-				"Hurtbox": "",
-				"Projectile": ""
+				"Charging": "",
+				"Release": ""
 			}
 		}
 	},
 	"Side Special": {
 		"Hitboxes": {
-			"Detection": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": ""
-			},
-			"Forward": {
+			"Angled Up": {
 				"Startup": "",
 				"Active": "",
 				"Endlag": "",
 				"Damage": "",
 				"Angle": ""
 			},
-			"Back": {
+			"No Angle": {
 				"Startup": "",
 				"Active": "",
 				"Endlag": "",
 				"Damage": "",
 				"Angle": ""
 			},
-			"Up": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
-			},
-			"Down": {
+			"Angled Down": {
 				"Startup": "",
 				"Active": "",
 				"Endlag": "",
@@ -357,18 +329,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Detection": "",
-				"Forward": "",
-				"Back": "",
-				"Up": "",
-				"Down": ""
+				"Angled Up": "",
+				"No Angle": "",
+				"Angled Down": ""
 			},
 			"Slowmo": {
-				"Detection": "",
-				"Forward": "",
-				"Back": "",
-				"Up": "",
-				"Down": ""
+				"Angled Up": "",
+				"No Angle": "",
+				"Angled Down": ""
 			}
 		}
 	},
@@ -379,9 +347,8 @@
 					"Active": "",
 					"Endlag": "",
 					"Damage": "",
-					"Landing Lag": "",
-					"Autocancel": "",
-					"Angle": ""
+					"Ledgesnap": "",
+					"Sleep Timer": ""
 				}
 			},
 		"Images": {
@@ -395,28 +362,7 @@
 	},
 	"Down Special": {
 		"Hitboxes": {
-			"Firaga": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
-			},
-			"Freeze": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
-			},
-			"Thundaga Hurtbox": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
-			},
-			"Thundaga Projectile": {
+			"Down Special": {
 				"Startup": "",
 				"Active": "",
 				"Endlag": "",
@@ -426,16 +372,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Firaga": "",
-				"Freeze": "",
-				"Thundaga Hurtbox": "",
-				"Thundaga Projectile": ""
+				"Down Special": ""
 			},
 			"Slowmo": {
-				"Firaga": "",
-				"Freeze": "",
-				"Thundaga Hurtbox": "",
-				"Thundaga Projectile": ""
+				"Down Special": ""
 			}
 		}
 	},
