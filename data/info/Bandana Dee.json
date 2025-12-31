@@ -329,12 +329,12 @@
 		"Images": {
 			"Full Speed": {
 				"Uncharged": "https://i.imgur.com/SPKlTIK.gif",
-				"Charged": "https://i.imgur.com/pLEXvuF.gif",
+				"Charged Hurtbox": "https://i.imgur.com/pLEXvuF.gif",
 				"Charged Projectile": "https://i.imgur.com/HCTwsaa.gif"
 			},
 			"Slowmo": {
 				"Uncharged": "https://i.imgur.com/6OmVf1D.gif",
-				"Charged": "https://i.imgur.com/qPaH8Ir.gif",
+				"Charged Hurtbox": "https://i.imgur.com/qPaH8Ir.gif",
 				"Charged Projectile": "https://i.imgur.com/5zzTJZA.gif"
 			}
 		}
