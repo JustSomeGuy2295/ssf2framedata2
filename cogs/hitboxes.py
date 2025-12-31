@@ -103,9 +103,8 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
         # e.g. desc += damage: 2%
         desc = ""
         for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
-            desc += f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}\n'
-        
-        # Sets the description of the embed to be desc, and sets the color of the embed
+            desc += f'{info}: {charinfo[move]["Hitboxes"][f"{hit}"][f"{info}"]}\n'
+            
         embed = discord.Embed(description=f'```\n{desc}```', color=int(charidentifier[char]["color"], 16))
         # If there are multiple hits then the embed title will specify the hit
         if len(hits)>1:
