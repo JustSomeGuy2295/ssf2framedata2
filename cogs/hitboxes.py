@@ -67,6 +67,18 @@ class MoveSelect(Button):
         await interaction.response.edit_message(embed=embed, view=self.custom_view)
 
 def ssf2_hitbox(char: str, move: str, user: discord.User):
+    '''
+    ssf2_hitbox
+    
+        inputs: character, move, user
+        output: a tuple of discord embeds, each element of the tuple being a different hit of the specified move
+
+        Loads two different json files and extracts information from the json files
+        Information from characters.json is used to supply the icon and color of the embed
+        Information from {char}.json is used to supply the image, description, and title of the embed
+        
+    '''
+    
     
     with open('data/characters.json', 'r') as c:
         charidentifier = json.load(c)
@@ -87,12 +99,14 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
     for i, hit in enumerate(charinfo[move]["Hitboxes"]):
         # Iterates through the different hits the move has
         
-        # For every value listed in each hit prints the value name and value value
+        # For every value listed in each hit adds the the information about the move
+        # e.g. desc += damage: 2%
         desc = ""
         for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
             desc += f'{info}: {charinfo[move]["Hitboxes"][f"{hit}"][f"{info}"]}\n'
             
         embed = discord.Embed(description=f'```\n{desc}```', color=int(charidentifier[char]["color"], 16))
+        # If there are multiple hits then the embed title will specify the hit
         if len(hits)>1:
             hit_text = f" ({hit})"
         else:
