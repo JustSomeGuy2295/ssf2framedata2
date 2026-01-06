@@ -246,6 +246,23 @@ class Hitboxes(commands.Cog):
         """Isaac frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Isaac', attack, interaction.user)
         await interaction.response.send_message(embed=ssf2_embed[0], view=view)
+
+    # Jigglypuff
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='jigglypuff')
+    async def jigglypuff(self, interaction: discord.Interaction, attack: moves):
+        """Jigglypuff frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Jigglypuff', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
     
     # Kirby
     moves = Literal[

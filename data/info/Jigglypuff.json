@@ -25,14 +25,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab Combo": ""
+				"Jab 1": "https://i.imgur.com/H5XiPqd.gif",
+				"Jab 2": "https://i.imgur.com/qjE5FMD.gif",
+				"Jab Combo": "https://i.imgur.com/R01cszj.gif"
 			},
 			"Slowmo": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab Combo": ""
+				"Jab 1": "https://i.imgur.com/tI94lh8.gif",
+				"Jab 2": "https://i.imgur.com/m8rR9hE.gif",
+				"Jab Combo": "https://i.imgur.com/ERTOtid.gif"
 			}
 		}
 	},
@@ -49,10 +49,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Dash Attack": ""
+				"Dash Attack": "https://i.imgur.com/xRxeahd.gif"
 			},
 			"Slowmo": {
-				"Dash Attack": ""
+				"Dash Attack": "https://i.imgur.com/ERTOtid.gif"
 			}
 		}
 	},
@@ -68,10 +68,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://i.imgur.com/BfYTirA.gif"
 			},
 			"Slowmo": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://i.imgur.com/mAL27Dv.gif"
 			}
 		}
 	},
@@ -87,10 +87,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Tilt": ""
+				"Up Tilt": "https://i.imgur.com/zEIR0bk.gif"
 			},
 			"Slowmo": {
-				"Up Tilt": ""
+				"Up Tilt": "https://i.imgur.com/mAL27Dv.gif"
 			}
 		}
 	},
@@ -106,10 +106,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Tilt": ""
+				"Down Tilt": "https://i.imgur.com/gPR2SVK.gif"
 			},
 			"Slowmo": {
-				"Down Tilt": ""
+				"Down Tilt": "https://i.imgur.com/JfKLNjI.gif"
 			}
 		}
 	},
@@ -126,10 +126,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Smash": ""
+				"Forward Smash": "https://i.imgur.com/85A2zWw.gif"
 			},
 			"Slowmo": {
-				"Forward Smash": ""
+				"Forward Smash": "https://i.imgur.com/3Nxnigt.gif"
 			}
 		}
 	},
@@ -145,10 +145,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Smash": ""
+				"Up Smash": "https://i.imgur.com/F3Xbzdp.gif"
 			},
 			"Slowmo": {
-				"Up Smash": ""
+				"Up Smash": "https://i.imgur.com/1K1wcUh.gif"
 			}
 		}
 	},
@@ -164,10 +164,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Smash": ""
+				"Down Smash": "https://i.imgur.com/aoVkliM.gif"
 			},
 			"Slowmo": {
-				"Down Smash": ""
+				"Down Smash": "https://i.imgur.com/1K1wcUh.gif"
 			}
 		}
 	},
@@ -180,15 +180,15 @@
 				"Damage": "11%, 4%",
 				"Landing Lag": "5",
 				"Autocancel": "1-2, 20-24",
-				"Angle": ""
+				"Angle": "45"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Neutral Air": ""
+				"Neutral Air": "https://i.imgur.com/abXO163.gif"
 			},
 			"Slowmo": {
-				"Neutral Air": ""
+				"Neutral Air": "https://i.imgur.com/VWNpSbq.gif"
 			}
 		}
 	},
@@ -201,15 +201,15 @@
 				"Damage": "10%, 7%",
 				"Landing Lag": "5",
 				"Autocancel": "1-2, 13-18",
-				"Angle": ""
+				"Angle": "45"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Air": ""
+				"Forward Air": "https://i.imgur.com/agIIG18.gif"
 			},
 			"Slowmo": {
-				"Forward Air": ""
+				"Forward Air": "https://i.imgur.com/CBTqHXc.gif"
 			}
 		}
 	},
@@ -227,10 +227,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Air": ""
+				"Back Air": "https://i.imgur.com/6LkE3UZ.gif"
 			},
 			"Slowmo": {
-				"Back Air": ""
+				"Back Air": "https://i.imgur.com/VDU68CX.gif"
 			}
 		}
 	},
@@ -248,10 +248,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Air": ""
+				"Up Air": "https://i.imgur.com/EyNp4JY.gif"
 			},
 			"Slowmo": {
-				"Up Air": ""
+				"Up Air": "https://i.imgur.com/QFu4oYg.gif"
 			}
 		}
 	},
@@ -269,70 +269,70 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Air": ""
+				"Down Air": "https://i.imgur.com/4xAKTfc.gif"
 			},
 			"Slowmo": {
-				"Down Air": ""
+				"Down Air": "https://i.imgur.com/VmeYmlO.gif"
 			}
 		}
 	},
 	"Neutral Special": {
 		"Hitboxes": {
 			"Uncharged": {
-				"Active": "1-16",
-				"Endlag": "",
+				"Startup": "0 (Min), 1-19 (Max)",
+				"Active": "45",
+				"Endlag": "19",
                 "Damage": "6%",
 				"Angle": "75"
 			},
 			"Low Charge": {
-				"Startup": "1-19",
-				"Active": "",
-				"Endlag": "",
+				"Startup": "1-20 (Min), 1-27 (Max)",
+				"Active": "69",
+				"Endlag": "19",
 				"Damage": "9%",
 				"Angle": "75"
 			},
 			"High Charge": {
-				"Startup": "1-27",
-				"Active": "",
-				"Endlag": "",
+				"Startup": "1-28 (Min), 1-33 (Max)",
+				"Active": "93",
+				"Endlag": "19",
 				"Damage": "11%",
 				"Angle": "75"
 			},
 			"Max Charge": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-34+",
+				"Active": "129",
+				"Endlag": "19",
+				"Damage": "13%",
+				"Angle": "75"
 			},
 			"Hit": {
-				"Duration": "",
-				"Ledgesnap": ""
+				"Duration": "7",
+				"Ledgesnap": "2+"
 			},
 			"Turning": {
-				"Duration": "",
-				"Damage": "",
-				"Angles": "",
-				"Ledgesnap": "1",
-				"Notes": ""
+				"Duration": "9",
+				"Damage": "3%",
+				"Angles": "75",
+				"Ledgesnap": "1"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Uncharged": "",
-				"Low Charge": "",
-				"High Charge": "",
-				"Max Charge": "",
-				"Hit": "",
-				"Turning": ""
+				"Uncharged": "https://i.imgur.com/KJFgaZ9.gif",
+				"Low Charge": "https://i.imgur.com/pPNIGAa.gif",
+				"High Charge": "https://i.imgur.com/IkpnHKv.gif",
+				"Max Charge": "https://i.imgur.com/jZPaK52.gif",
+				"Hit": "https://i.imgur.com/JCBRxhf.gif",
+				"Turning": "https://i.imgur.com/VFF5XcS.gif"
 			},
 			"Slowmo": {
-				"Uncharged": "",
-				"Low Charge": "",
-				"High Charge": "",
-				"Max Charge": "",
-				"Hit": "",
-				"Turning": ""
+				"Uncharged": "https://i.imgur.com/rYyO683.gif",
+				"Low Charge": "https://i.imgur.com/YKiYG5V.gif",
+				"High Charge": "https://i.imgur.com/Dv0HNts.gif",
+				"Max Charge": "https://i.imgur.com/5Xz1UjC.gif",
+				"Hit": "https://i.imgur.com/YEQkR7Z.gif",
+				"Turning": "https://i.imgur.com/sQro2Ug.gif"
 			}
 		}
 	},
@@ -349,10 +349,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Side Special": ""
+				"Side Special": "https://i.imgur.com/r86XFS2.gif"
 			},
 			"Slowmo": {
-				"Side Special": ""
+				"Side Special": "https://i.imgur.com/1DHANt2.gif"
 			}
 		}
 	},
@@ -368,10 +368,10 @@
 			},
 		"Images": {
 			"Full Speed": {
-				"Up Special": ""
+				"Up Special": "https://i.imgur.com/SGGZV6q.gif"
 			},
 			"Slowmo": {
-				"Up Special": ""
+				"Up Special": "https://i.imgur.com/Lflhwv9.gif"
 			}
 		}
 	},
@@ -387,118 +387,118 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Special": ""
+				"Down Special": "https://i.imgur.com/zf3xOor.gif"
 			},
 			"Slowmo": {
-				"Down Special": ""
+				"Down Special": "https://i.imgur.com/5wvFTsB.gif"
 			}
 		}
 	},
 	"Grab": {
 		"Hitboxes": {
 			"Standing Grab": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": ""
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-15"
 			},
 			"Dash Grab": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": ""
+				"Startup": "1-5",
+				"Active": "6",
+				"Endlag": "7-20"
 			},
 			"Pummel": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": ""
+				"Startup": "1-2",
+				"Active": "3",
+				"Endlag": "4-8",
+				"Damage": "2%"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://i.imgur.com/AtMHRU7.gif",
+				"Dash Grab": "https://i.imgur.com/zWrfsTj.gif",
+				"Pummel": "https://i.imgur.com/M169iuI.gif"
 			},
 			"Slowmo": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://i.imgur.com/LqFueny.gif",
+				"Dash Grab": "https://i.imgur.com/xtQp1Qn.gif",
+				"Pummel": "https://i.imgur.com/zkXEDg0.gif"
 			}
 		}
 	},
 	"Forward Throw": {
 		"Hitboxes": {
 			"Forward Throw": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-4",
+				"Active": "5-7",
+				"Endlag": "8-14",
+				"Damage": "12%",
+				"Angle": "45"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Throw": ""
+				"Forward Throw": "https://i.imgur.com/zuRjRa7.gif"
 			},
 			"Slowmo": {
-				"Forward Throw": ""
+				"Forward Throw": "https://i.imgur.com/LqFueny.gif"
 			}
 		}
 	},
 	"Back Throw": {
 		"Hitboxes": {
 			"Back Throw": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-9",
+				"Active": "10-13",
+				"Endlag": "14-16",
+				"Damage": "10%",
+				"Angle": "135"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Throw": ""
+				"Back Throw": "https://i.imgur.com/oOtWOR4.gif"
 			},
 			"Slowmo": {
-				"Back Throw": ""
+				"Back Throw": "https://i.imgur.com/ZFbAkcK.gif"
 			}
 		}
 	},
 	"Up Throw": {
 		"Hitboxes": {
 			"Up Throw": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-16",
+				"Damage": "8%",
+				"Angle": "95"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Throw": ""
+				"Up Throw": "https://i.imgur.com/YMw1sUL.gif"
 			},
 			"Slowmo": {
-				"Up Throw": ""
+				"Up Throw": "https://i.imgur.com/cYotmDd.gif"
 			}
 		}
 	},
 	"Down Throw": {
 		"Hitboxes": {
 			"Down Throw": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+				"Startup": "1-5",
+				"Active": "6, 12, 24",
+				"Endlag": "25-38",
+				"Damage": "4%, 3%, 1%",
+				"Angle": "75"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Throw": ""
+				"Down Throw": "https://i.imgur.com/oKCw8nx.gif"
 			},
 			"Slowmo": {
-				"Down Throw": ""
+				"Down Throw": "https://i.imgur.com/nwK4uC2.gif"
 			}
 		}
 	}
